@@ -1,0 +1,105 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-time {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.del-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.website {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .site-time {
+    font-size: 18px;
+  }
+}
+
+.site-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.website-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .website-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .site-logo {
+    margin-left: 25px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.site-title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #475569;
+  margin-left: 20px;
+}
+
+.site-url {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #64748b;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .site-title {
+    margin-bottom: 0px;
+  }
+  .site-url {
+    margin-top: 0px;
+  }
+}
+
+.delete-button {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .site-title {
+    font-size: 18px;
+  }
+
+  .site-url {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #3367d6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.app-logo {
+  width: 100px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-logo {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+.input-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2850a7;
+  width: 50%;
+  border: 1px solid #6697ff;
+}
+
+.search-button {
+  background-color: #2850a7;
+  border: none;
+  border-right: 1px solid #6697ff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.search-log0 {
+  width: 20px;
+  height: 20px;
+}
+
+.user-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.bg-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.clear {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .clear {
+    font-size: 36px;
+  }
+}
